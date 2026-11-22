@@ -31,8 +31,20 @@ OctoFit Tracker is a three-tier application for a school fitness program. The st
 Record your plan here before editing code.
 
 - Presentation tier decision:
+    Add the shared API client and one consistent loading/error/empty state pattern.
+    Implement the four routes and data rendering.
+    Re-run npm test --prefix octofit-tracker/frontend.
+    Run the frontend build.
 - Logic tier decision:
+    Implement team and activity validation/creation first.
+    Add safe malformed-ID and missing-reference handling.
+    Then add leaderboard aggregation and workout suggestion logic.
+    Re-run npm run test:api --prefix octofit-tracker/backend.
+    Run the backend build.
 - Data tier decision:
+    Implement the four Mongoose schemas and validation contracts.
+    Implement or repair seed.ts.
+    Re-run npm run test:data --prefix octofit-tracker/backend.
 - Activity tracking approach:
 - Team management approach:
 - Leaderboard approach:
